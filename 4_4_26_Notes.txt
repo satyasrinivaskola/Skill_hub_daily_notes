@@ -1,0 +1,10 @@
+Screenshot in desktop:
+Snipping tool (or )windows+shift+s
+Zip folder-->Right click-->compress to-->extract zip
+save file-->Save as (or) cntrl+s
+folder creation-->Desktop-->riggh click-->New folder-->rename-->save
+New Note Pad-->open folder-->Right click -->new -->text document-->save
+
+
+
+

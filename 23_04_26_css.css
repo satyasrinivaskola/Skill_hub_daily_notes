@@ -1,0 +1,16 @@
+.header{
+position: sticky;
+top: 0;
+left: 0;
+
+width: 100%;
+background-color: lightblue;
+padding: 15px;
+
+}
+
+.content{
+margin-top: 100px;   /* prevents content hiding behind header */
+height: 2000px;
+background-color: lavender;
+}

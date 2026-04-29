@@ -1,0 +1,22 @@
+.box{
+height:200px;
+width:320px;
+background-color:blue;}
+.container{
+display:grid;
+grid-template-column:1fr 1fr 1fr;
+gap:10px;
+}
+.divsion{
+width:150px;
+height:100px;
+background-color:green;
+overflow-y:hidden;}
+
+table,td,th{
+text-align:center;
+border:1px solid;
+margin-bottom:100px;
+}
+td{
+padding-right:100px;}

@@ -1,0 +1,27 @@
+.box{
+height:200px;
+width:320px;
+background-color:blue;
+padding:10px;
+margin:10px;}
+
+
+.container{
+display:flex;
+
+gap:10px;
+height:700px;
+background-color:yellow;
+justify-content:flex-start;
+align-items:center;
+color:white;
+
+flex-flow:row wrap
+}
+.satya{
+background-color:green;
+order:-1;
+}
+.sss{
+order:-2}
+

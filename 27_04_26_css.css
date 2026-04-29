@@ -1,0 +1,28 @@
+a:link {
+  color: blue;
+}
+
+a:visited {
+  color: aqua;
+}
+
+a:hover {
+  color: red;
+}
+
+a:active {
+  color: green;
+}
+input{
+border-color:violet;}
+
+input:focus{
+color:blueviolet;
+border-color:blanchedalmond;
+}
+p{
+color:pink;}
+.para{color:green;}
+#use{
+color:brown;
+}

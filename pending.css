@@ -1,0 +1,5 @@
+.cards{
+height:400px;
+width:400px;
+background-image:radial-gradient(ellipse,green,yellow,red);
+}
