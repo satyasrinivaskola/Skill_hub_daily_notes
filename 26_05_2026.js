@@ -46,7 +46,7 @@ function main() {
 
   console.log(firstNumber/secondNumber)
 }*/
-
+/*
 [ 1, 2, 3, 4, 5 ]
 const [x,y,...rest]=numbersArray
 console.log(rest.reduce((acc,tot)=>{return acc+tot},0))
@@ -57,3 +57,68 @@ const [x,y,...rest]=familyArray
 function ratio(num1,num2){
 return (num1%num2)}
 console.log(ratio(31,6))
+*/
+
+// console.log("Hello ")
+
+// function order(callback)
+// {
+
+// console.log("Order");
+// callback()
+// }
+
+// order(function (){
+// console.log("Payment");
+// })
+/*  */
+// let hel=document.getElementById("hel");
+// let input=document.getElementById("input");
+// async function data(){
+// console.log("Button")
+// let res=await fetch("https://jsonplaceholder.typicode.com/posts/"+input.value)
+// let d=await res.json()
+// console.log(d.title)
+// hel.innerHTML=d.title
+// //return(d.title)
+// //.then(data=>{console.log("Hello");return(data)})
+// }
+//console.log(data())
+//console.log(ss())
+//console.log(dd)
+/* 
+let hel=document.getElementById("hel");
+let input=document.getElementById("input");
+async function data(){
+console.log("Button")
+fetch("https://jsonplaceholder.typicode.com/posts/"+input.value)
+.then(res=> res.json())
+.then(d=>{
+console.log(d.title)
+hel.innerHTML=d.title})
+//return(d.title)
+//.then(data=>{console.log("Hello");return(data)})
+} */
+// let url
+// const fn=async function (){
+// let f=await fetch("https://apis.ccbp.in/countries-data")
+// let d=await f.json()
+// console.log()
+// url=d[0].flag
+// console.log(d[0].flag)
+// }
+
+// let hel=document.getElementById("hel");
+// let input=document.getElementById("input");
+// async function data(){
+// console.log("Button")
+// fetch("https://jsonplaceholder.typicode.com/posts/"+input.value)
+// .then(res=> res.json())
+// .then(d=>{
+// console.log(d.title)
+// hel.innerHTML=d.title})
+//return(d.title)
+//.then(data=>{console.log("Hello");return(data)})
+fetch("https://jsonplaceholder.typicode.com/posts/2")
+.then(res=>res.json())
+.then(data=>{console.log(data.userId)})

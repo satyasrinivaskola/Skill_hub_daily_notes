@@ -60,4 +60,4 @@ fetch("https://jsonplaceholder.typicode.com/posts",methods)
 .then(result=>{console.log( result[0].title)
 })
 d=fetch()
-console.log(d)*/s
+console.log(d)*/
